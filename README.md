@@ -13,6 +13,18 @@ validictory is a general purpose of Python data validator.
 Works with Python 2.7 and Python 3.3+
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/validictory-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/validictory-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/validictory-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/validictory-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/validictory-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/validictory-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/validictory/badges/version.svg)](https://anaconda.org/conda-forge/validictory)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/validictory/badges/downloads.svg)](https://anaconda.org/conda-forge/validictory)
+
 Installing validictory
 ======================
 
@@ -33,7 +45,6 @@ It is possible to list all of the versions of `validictory` available on your pl
 ```
 conda search validictory --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -69,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/validictory-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/validictory-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/validictory-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/validictory-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/validictory-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/validictory-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/validictory/badges/version.svg)](https://anaconda.org/conda-forge/validictory)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/validictory/badges/downloads.svg)](https://anaconda.org/conda-forge/validictory)
 
 
 Updating validictory-feedstock
