@@ -16,14 +16,15 @@ Works with Python 2.7 and Python 3.3+
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/validictory-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/validictory-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/validictory-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/validictory-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/validictory-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/validictory-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/validictory-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/validictory-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/validictory/badges/version.svg)](https://anaconda.org/conda-forge/validictory)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/validictory/badges/downloads.svg)](https://anaconda.org/conda-forge/validictory)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-validictory-green.svg)](https://anaconda.org/conda-forge/validictory) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/validictory.svg)](https://anaconda.org/conda-forge/validictory) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/validictory.svg)](https://anaconda.org/conda-forge/validictory) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/validictory.svg)](https://anaconda.org/conda-forge/validictory) |
 
 Installing validictory
 ======================
@@ -68,6 +69,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
