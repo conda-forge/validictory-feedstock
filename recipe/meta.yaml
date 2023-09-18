@@ -1,31 +1,33 @@
 {% set name = "validictory" %}
 {% set version = "1.1.2" %}
-{% set sha256 = "3a87b84658592f75f37d6bab77ac223774c9989dc7349c8aad19a424770835ba" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 3a87b84658592f75f37d6bab77ac223774c9989dc7349c8aad19a424770835ba
 
 build:
   number: 1003
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  script: {{ PYTHON }} -m pip install -vv .
 
 requirements:
   host:
-    - python
-    - setuptools
+    - python >=3.3
+    - pip
   run:
-    - python
+    - python >=3.3
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - validictory
-    - validictory.tests
 
 about:
   home: http://github.com/jamesturk/validictory
